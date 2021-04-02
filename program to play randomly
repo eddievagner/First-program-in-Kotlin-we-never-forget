@@ -1,0 +1,16 @@
+//album com 15 faixas separadas por lado A e lado B
+const val LADO_A = 1
+const val LADO_B = 15
+
+///////função principal
+fun main (){
+   
+    val album = (1..30).random()//verifica se a faixa escolhida esta no album
+    
+    //escolhe aleatoriamente qual faixa vai tocar
+    //se não estiver o album mostra false ou true se estiver
+    println(album)
+    println(album in LADO_A..LADO_B)
+    
+
+}
